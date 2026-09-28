@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Ringkas - Poliban Digicraft</title>
+</head>
+<body>
+    <! -- bagian kepala halaman (Header & Navigasi) -- >
+
+   <header> 
+    <table align="center">
+        <tr>
+            <th>
+                 <h1>Form Pemesanan Ringkasan - Poliban DigiCraft </h1>
+            </th> 
+            <th>  
+                &nbsp;&nbsp;&nbsp;&nbsp; <a href="../kontak.html"> kembali ke beranda </a>
+            </th>
+        </tr>
+    </table>
+
+    <hr>
+</header>  
+
+<section>
+    
+     <!-- Menampilkan Gambar Mockup (Gunakan Gambar yang ada difolder komputer anda)-->
+<p>
+     <img src="produk.jpg" alt="Mockup Desain Landing Page Agensi" width="450">
+     <br>
+     
+    
+<p>Deskripsi Singkat tentang produk atau layanan yang ditawarkan oleh poliban DigiCraft. informasi tambahan untuk pengguna </p>
+</section> 
+
+<section>
+    <!-- TABEL  -->
+    <table border="1" cellspacing="0" wight="100">
+        <thead>
+            
+                <!-- Judul Tabel menggunakan Colspan agar memanjang di 2 kolom -->
+               
+        
+        <tr>
+            
+            <th>Package name</th>
+            <th>Price</th>
+        </tr>
+         <tr>
+            
+            <td>Paket Basic</td>
+            <td>Rp50.000</td>
+        </tr>
+
+
+        <tr>
+            
+            <td>Paket Standar</td>
+            <td>Rp100.000</td>
+        </tr>
+
+        <tr>
+           
+            <td>Paket premium</td>
+            <td>Rp150.000</td>
+        </tr>
+    </table>
+    <br><br>
+
+
+
+
+     <!-- Grub 1: Data Diri pelanggan -->
+
+
+         <fieldset>
+            <h3>Formulir pemesanan</h3>
+            <br>
+            <label for="nama_lengkap">Nama Lengkap  :</label> 
+            <input type="text" name="nama_lengkap" id="nama_lengkap" placeholder="Contoh : Ratih Oktavia" size="40" required>
+            <br><br>
+
+            <label for="email_pemesan"> Email :</label>
+            <input type="email" name="email_pemesan" id="Email_Pemesan" placeholder="email" size="40" required> 
+            <br><br>
+
+                <label for="Paket"> Pilih paket :</label>
+            <select name="pilih_paket" id="pilih paket">
+                <option value="">-- Pilih paket jasa --</option>
+                <option value="silver">Paket basic (Rp. 50.000)</option>
+                <option value="Gold">Paket Standar (Rp. 100.000)</option>
+                <option value="Platinum">Paket premium(Rp. 150.000)</option>
+            </select>
+                 <br><br>
+                  <button type="submit"><b>Kirim Pemesanan sekarang</b></button>&nbsp;
+          </fieldset>
+                              
+         <br>
+
+</body>
+</html>
