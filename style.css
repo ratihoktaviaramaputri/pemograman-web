@@ -31,7 +31,7 @@ body {
 
 
 /* 3. LAYOUT CONTAINER */
-.container{
+.container {
     width: 90%;
     max-width: 1100px;
     margin: 0 auto;
@@ -52,7 +52,7 @@ header h1 {
     margin-bottom: 5px;
 }
 
-header p{
+header p {
     font-size: 0.95rem;
     opacity: 0.9;
     margin-bottom: 15px;
@@ -83,7 +83,7 @@ main {
     padding: 40px 0;
 }
 
-.section{
+.section {
     margin-bottom: 50px;
 }
 
@@ -94,7 +94,7 @@ main {
     margin-bottom: 5px;
 }
 
-.section.subtitle {
+.section-subtitle {
     text-align: center;
     color: var(--text-muted);
     font-size: 0.95rem;
